@@ -24,9 +24,15 @@ isMarried = false;
 age = 'thirty-six';
 job = 'driver';
 
-console.log(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.')
+//console.log(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.')
 
-var lastName = prompt('What is the last name?');
-console.log(lastName);
+//var lastName = prompt('What is the last name?');
+//console.log(lastName);
 
-alert()
+// Lecture: opererators
+var currentYear = 2016
+var birthYear = currentYear - 26;
+
+birthYear = currentYear - 26 * 2;
+
+console.log(birthYear);
